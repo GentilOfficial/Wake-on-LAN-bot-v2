@@ -4,9 +4,10 @@ Second tweak of my telegram bot to remotely turn on my PC
 
 ## 🔎 What I Used?
 
+-   [_Dotenv_](https://github.com/motdotla/dotenv) &rarr; To use the environment variables.
 -   [_Telegraf_](https://github.com/telegraf/telegraf) &rarr; To manage the Telegram bot
--   [_WOL_](https://github.com/song940/wake-on-lan) &rarr; To send a Magic Packet to the PC.
 -   [_Ping_](https://github.com/danielzzz/node-ping) &rarr; To check the status of the PC.
+-   [_WOL_](https://github.com/song940/wake-on-lan) &rarr; To send a Magic Packet to the PC.
 
 ## 🚀 Getting Started!
 
