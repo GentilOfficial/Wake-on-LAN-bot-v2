@@ -14,7 +14,7 @@ Second tweak of my telegram bot to remotely turn on my PC
 
 ### Install dependencies
 
-```bash
+```shell
   npm i
 ```
 
@@ -36,7 +36,7 @@ To set all the appropriate variables I created an _.env_ file where I set these 
 
 #### Example
 
-```javascript
+```shell
   BOT_TOKEN=ABCD123
   TELEGRAM_USERNAME=abc
   PC_MAC_ADDRESS=00:A0:B1:23:C4:56
@@ -47,6 +47,6 @@ To set all the appropriate variables I created an _.env_ file where I set these 
 
 ### Start bot
 
-```bash
+```shell
   node index
 ```
