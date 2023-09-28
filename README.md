@@ -1,3 +1,4 @@
+
 # Wake-on-LAN-bot-v2
 
 Second tweak of my telegram bot to remotely turn on my PC
@@ -32,6 +33,17 @@ To set all the appropriate variables I created an _.env_ file where I set these 
 -   _USER_CHAT_ID_ &rarr; The ID of my Telegram chat with the BOT to be able to use the commands.
 
 -   _LOG_CHAT_ID_ &rarr; The ID of a Telegram channel with the BOT inside to send the actions performed.
+
+#### Example
+
+```javascript
+  BOT_TOKEN=ABCD123
+  TELEGRAM_USERNAME=abc
+  PC_MAC_ADDRESS=00:A0:B1:23:C4:56
+  PC_IP_ADDRESS=192.168.1.2
+  USER_CHAT_ID=12345
+  LOG_CHAT_ID=123456789
+```
 
 ### Start bot
 
